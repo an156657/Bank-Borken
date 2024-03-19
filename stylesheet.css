@@ -7,13 +7,13 @@ h1{
 
 footer{
     background-color:rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     color:black;
     text-align:center
 }
 
 body{
-    background-color:rgb(199, 199, 188)
+    background-color:rgb(199, 199, 188);
 }
 
 header{
@@ -21,7 +21,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(0, 0, 0);
     font-size:larger;
-    text-align:center
+    text-align:center;
 
 }
 
@@ -40,17 +40,26 @@ a:visited {
     color: rgb(194, 22, 108);
   }
 
+  /* Der folgende style wirkt auf eine class namens felx container. 
+  Eine class wird in der styles.css mit einem führenden Punkt dargestellt.*/ 
   .flex-container {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
   }
   
+  
+
   .flex-container > div {
     background-color: #f1f1f1;
-    width: 100px;
+    width: 100%;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
   }
+  
+  /* Der style wirkt auf alle DIVs innerhalb eines flex containers.*/
+
